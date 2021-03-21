@@ -1,45 +1,195 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pop Goes The Weasel
+## Code Institute Milestone Project 3: Python and Data Centric Development
 
+<<<<<<< HEAD
 Welcome Telesia,
+=======
+Pop Goes The Weasel is a dictionary style website for users who want to learn more about cockney words, phrases and the art of rhyming slang.
+>>>>>>> 4cf35638789197cb1d89905905c2679699c0684e
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+A link to the website can be found [here]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### UX
 
-`python3 -m http.server`
+#### Strategy
+Pop Goes The Weasel is a fun and informative online dictionary. It is for users who may want to understand more about the language of cockney rhyming slang and/or
+contribute to the vernacular of terms. It is an interactive application where users can register then subsequently login to their account in order to add any further cockney words and phrases. The application is aimed at a wide range of users (10 - 100!) and because of that I am keeping the overall look contempory yet professional. The users will want to access information regarding cockney words and phrases as well as contribute to the dictionary easily. 
 
-A blue button should appear to click: *Make Public*,
+These users will want clear 
+information on how to whip up a cocktail but it is important that the site encapsulates the feminine fun 
+of heading out for cocktails and interacting with a mixologist at the bar. This feel will be created by the 
+projects choice of colour, copy, functionality and typography. These users will have a choice to search for 
+their favourite cocktail receipe or generate a random cocktail to view at the click of a button. 
 
-Another blue button should appear to click: *Open Browser*.
+As a first time user I want to:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* be able to read cockney words and rhyming slang phrases 
+* be able to register for an account
+* be able to add a word or phrase to the dictionary
+* be able to edit a word or phrases in the dictionary that I have added
+* be able to delete a word or phrase in the dictionary that I have added
+* be able to instinctively navigate the website to find the information required efficiently.
+* enjoy the experience of entering a website that is informative and understand the main aims of the site
+* be able to contact the website for any further information about cockney rhyming slang or incase my account is malfunctioning.
 
-A blue button should appear to click: *Make Public*,
+As a registered user I want to:
 
-Another blue button should appear to click: *Open Browser*.
+* be able to log in and log out of my account
+* be able to read cockney words and rhyming slang phrases 
+* be able to add a word or phrase to the dictionary
+* be able to edit a word or phrases in the dictionary that I have added
+* be able to delete a word or phrase in the dictionary that I have added
+* be able to instinctively navigate the website to find the information required efficiently.
+* be able to contact the website for any further information about cockney rhyming slang or incase my account is malfunctioning.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+#### Scope
+After analysis of the user stories, I have decided that I cannot implement all user's needs at this time so I have decided on the below features to be my initial minimum scope.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Register account form
+* Log in form
+* Log out capability
+* Add words to dictionary
+* Edit words in dictionary 
+* Delete words from dictionary
+* Responsive design
+* Contact form 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Structure
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Skeleton
+I designed wireframes for mobile, tablet and desktop using Balsamiq.
+They are viewable in PDF using the following link:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Wireframes for home page and contact page]() 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Surface
+##### Colours
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+##### Typography
 
---------
+I have used two Google Fonts: EB Garamond, cabin
 
-Happy coding!
+### Features
+
+* Responsive on all devices with a mobile-first design using the Materialize framework
+
+* An easy to use navigation bar located at the top of every page with a collapsible side navigation menu on mobile devices
+
+* A home page with an about section that explains the purpose of the site
+
+* A dictionary page with a materialize collapsible component, search functionality and a sort button
+
+* Add, Edit and Delete word functionality
+
+* Login, Log Out and Sign Up functionality
+
+* A profile page that displays words the user has added to the dictionary
+
+* A contact page with an easy to use form connected to EmailJS to allow anyone to contact the site owner
+
+* A footer located on every page with links to social media accounts, an email link and various different Northern Ireland tourism websites
+
+#### Features Left to Implement:
+* 
+
+### Technologies Used
+
+* HTML5
+
+* CSS3 
+
+* Javascript
+
+* Python
+
+* Materialize
+
+A modern framework used to implement css and layout features.
+
+* MongoDB Atlas 
+
+The cloud based service used as the database for the project.
+
+* Flask
+
+Uses Flask as a microframework to create the application.
+
+* Heroku
+
+A cloud platform used to deploy the project. 
+
+* GitHub
+
+The project uses GitHub to store its code.
+
+* Gitpod
+
+The project uses Gitpod as the IDE.
+
+* Git
+
+Used within Gitpod as the version control system.
+
+* Google Developer Tools
+
+Used within Google Chrome to inspect pages to help solve any bugs and view responsive design features.
+
+* Balsamiq
+
+The project uses Balsamiq to create wireframes.
+
+* EmailJS
+
+Used to integrate the functionality of the contact form to connect to an appropriate email address.
+
+
+
+### Testing
+
+Please refer to seperate document found [here](TESTING.md)
+
+### Deployment
+
+The repository for the project is held on GitHub and was created by Sarah Telesia. 
+
+Steps to create project using Gitpod and GitHub:
+
+* Navigate to Code Institute main template on github (https://github.com/Code-Institute-Org/gitpod-full-template)
+* Click on 'Use this template' and create personalised Repository Name
+* Click 'Create repository from template'
+* Click on 'Gitpod' button in new respository, to open in IDE
+
+
+Steps on how to clone the Lockdown-Cocktail-V2 repository from GitHub
+
+I have learned and taken the information for the below clone steps from https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+There are two options:
+
+Clone using GitHub Desktop
+
+Open GitHub website and navigate to Quartet-Militaire repository on Sarah Telesia's GitHub at https://github.com/Telesia/Lockdown-Cocktail-V2
+Above the list of files, click on Code button
+Scroll down to read 'Open with GitHub Desktop' and then click
+This will open GitHub Desktop (If this is your first time using GitHub Desktop follow the software download procedure)
+A pop up will ask you where you wish to clone the repository to on your local computer and then press clone
+You can now access the repository files in your chosen IDE
+Clone using Git
+
+Open GitHub website and navigate to Quartet-Militaire repository on Sarah Telesia's GitHub at https://github.com/Telesia/Lockdown-Cocktail-V2
+Above the list of files, click on Code button
+Click on the web URL viewable and copy
+Open the terminal
+Change the current working directory to the location where you want the cloned directory
+Type git clone, and then paste the URL you copied earlier
+Press Enter to create your local clone.6.
+You can now access the repository files in your chosen IDE
+
+### Credits
+
+
+
