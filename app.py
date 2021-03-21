@@ -19,9 +19,10 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 
-@app.route("/")
-def hello():
-    return "Hello World"
+@app.route("/get_dictionary")
+def get_dictionary():
+    dictionary = list(mongo.db.cockney_dictionary.find())
+    return render_template("dictionary.html", dictionary=dictionary)
 
 
 if __name__ == "__main__":
