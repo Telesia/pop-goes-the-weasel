@@ -1,12 +1,9 @@
 # Pop Goes The Weasel
 ## Code Institute Milestone Project 3: Python and Data Centric Development
 
-<<<<<<< HEAD
 Welcome Telesia,
 =======
 Pop Goes The Weasel is a dictionary style website for users who want to learn more about cockney words, phrases and the art of rhyming slang.
->>>>>>> 4cf35638789197cb1d89905905c2679699c0684e
-
 
 A link to the website can be found [here]()
 
