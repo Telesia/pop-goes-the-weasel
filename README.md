@@ -40,6 +40,13 @@ As a registered user I want to:
 * be able to instinctively navigate the website to find the information required efficiently.
 * be able to contact the website for any further information about cockney rhyming slang or incase my account is malfunctioning.
 
+As a site owner I want to:
+
+* make the purpose of the site clear
+* create an informative and interesting experience for users, whether registered or not
+* present some cockney words/phrases in the dictionary but allow scope for more to be added
+* allow registered users to create, read, edit and delete the dictionary
+* allow users to read the dictionary
 
 #### Scope
 After analysis of the user stories, I have decided that I cannot implement all user's needs at this time so I have decided on the below features to be my initial minimum scope.
@@ -65,6 +72,10 @@ They are viewable in PDF using the following link:
 #### Surface
 ##### Colours
 
+0E3746 - Navy Blue
+EAE8DC - Oatmeal
+F4F2EC - Off White
+BE2623 - Warm Red
 
 ##### Typography
 
@@ -187,6 +198,8 @@ Press Enter to create your local clone.6.
 You can now access the repository files in your chosen IDE
 
 ### Credits
+
+Colour palette from www.digitalsynopsis.com 
 
 
 
